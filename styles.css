@@ -1,3 +1,10 @@
 .container-fluid {
   background-image: url(img/Header-llustration-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+i {
+  color: blue;
 }
