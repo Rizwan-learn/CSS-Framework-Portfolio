@@ -18,3 +18,7 @@ i {
   display: flex;
   justify-content: space-around;
 }
+
+.card-img-top {
+  height: 25vh;
+}
