@@ -8,3 +8,8 @@
 i {
   color: blue;
 }
+
+.porfolios {
+  display: flex;
+  justify-content: space-around;
+}
