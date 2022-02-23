@@ -13,3 +13,8 @@ i {
   display: flex;
   justify-content: space-around;
 }
+
+.about-me-cards {
+  display: flex;
+  justify-content: space-around;
+}
