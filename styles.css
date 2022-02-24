@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+section {
+  margin: 8%;
+}
+
 .about-me-cards {
   display: flex;
   justify-content: space-around;
@@ -24,13 +28,14 @@
   text-decoration: none;
 }
 
-.AboutMe {
-  background-image: url('img/aboutmebg.jpg');
-  background-position: right top;
-}
-
 .Ame-card {
   background-image: url("img/bgholder.png");
   background-position: center;
   background-size: cover;
+}
+
+.AboutMe {
+  background-image: url(img/aboutmebtleft.png) ;
+  background-image: url(img/aboutmetopright.png);
+  background-repeat: no-repeat;
 }
