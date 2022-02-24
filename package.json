@@ -1,0 +1,22 @@
+{
+  "name": "css-framework-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizwan-learn/CSS-Framework-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizwan-learn/CSS-Framework-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Rizwan-learn/CSS-Framework-Portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

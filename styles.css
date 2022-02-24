@@ -1,0 +1,21 @@
+.head-cont {
+  background-image: url(img/Header-llustration-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.card-img-top {
+  height: 25vh;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.Ame-card {
+  background-image: url("img/bgholder.png");
+  background-position: center;
+  background-size: cover;
+}
