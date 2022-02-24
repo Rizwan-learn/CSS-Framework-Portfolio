@@ -1,17 +1,9 @@
-.container-fluid {
+
+.head-cont {
   background-image: url(img/Header-llustration-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-}
-
-i {
-  color: blue;
-}
-
-.porfolios {
-  display: flex;
-  justify-content: space-around;
 }
 
 .about-me-cards {
@@ -21,4 +13,24 @@ i {
 
 .card-img-top {
   height: 25vh;
+}
+
+.row>* {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.AboutMe {
+  background-image: url('img/aboutmebg.jpg');
+  background-position: right top;
+}
+
+.Ame-card {
+  background-image: url("img/bgholder.png");
+  background-position: center;
+  background-size: cover;
 }

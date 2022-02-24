@@ -12,212 +12,170 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container-fluid text-center">
+  <!--Header -----> 
+  <div class="head-cont container-fluid text-center">
     <header>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Contact</a>
-            </li>
-          </ul>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-primary active" aria-current="page" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="#">Contact</a>
+        </li>
+      </ul>
     </header>
     <section class="container position-absolute start-50 top-50 translate-middle">
-    <h1 class="text-primary text-center">Hey there. I’m Alex.<br>
-    <span class="text-success">I'm a software developer</span></h1>
+      <h1 class="text-primary text-center"><dt>Hey there. I’m Alex.<br></dt>
+      <span class="text-success">I'm a software developer</span></h1>
       <p class="text-primary text-center"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.</p>
-
-        <div class="social g-4">
-          <ul class="socials">       
-            <a class="col" href="">
-              <img src="img/github.png">
-            </a >
-                <a class="col" href="">
-              <img src="img/github.png">
-              </a >                 
-              <a class="col" href="">
-              <img src="img/github.png">
-              </a >       
-              <a class="col" href="">
-              <img src="img/github.png">
-              </a >
-              <a class="col" href="">
-              <img src="img/github.png">
-              </a >
-          </ul>
-        </div>
+      <div class="social g-4">
+        <ul class="socials">       
+          <a class="col mx-2" href="">
+            <img src="img/github.png">
+          </a >
+          <a class="col mx-2" href="">
+            <img src="img/linkdIcon.png">
+          </a >                 
+          <a class="col mx-2" href="">
+            <img src="img/AngelistIcon,.png">
+          </a >       
+          <a class="col mx-2" href="">
+            <img src="img/twitterIcon.png">
+          </a >
+          <a class="col mx-2" href="">
+            <img src="img/mIcon.png">
+          </a >
+        </ul>
+      </div>
     </section>
   </div>
-
-  <h2 class="text-primary text-center mt-5">My Recent Works</h2>
-  <section class="porfolios row m-5 justify-content-evenly">
-    <span style="white-space: pre-line"></span>
-    <div class="card col-3 mt-5" style="width: 18rem;">
-      <img src="img/bgholder.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Card title</h5>
-        <ul class="nav justify-content-evenly" style="float: left;">
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-        </ul>
-        <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
+  <!-- works section -->
+  <div class="container-fluid d-flex flex-column g-4 align-items-center px-0 mt-5">
+    <h2 class="text-primary"><dt>My Recent Works</dt></h2>
+    <div class="row m-5">
+      <div class="col-md-4">
+        <div class="card mt-3">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <button class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</button>
+          </div>
+        </div>
+        <div class="card mt-3 text-center">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <a href="#" class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mt-3 text-center">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <a href="#" class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</a>
+          </div>
+        </div>
+        <div class="card mt-3 text-center">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <a href="#" class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mt-3 text-center">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <a href="#" class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</a>
+          </div>
+        </div>
+        <div class="card mt-3 text-center">
+          <img class="card-img-top" src="img/bgholder.png" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title text-primary">Multi-Post Stories <br> Gain+Glory</h5>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Ruby on rail</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">Css</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-secondary text-primary px-3 p-1 rounded">html</a>
+            <a href="#" class="btn btn-success d-block mx-auto m-3" style="width: 9rem;">See Project</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="card col-3 mt-5" style="width: 18rem;">
-      <img src="img/bgholder.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Card title</h5>
-        <ul class="nav justify-content-evenly">
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-        </ul>
-        <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
-      </div>
-    </div>
-
-    <div class="card col-3 mt-5" style="width: 18rem;">
-      <img src="img/bgholder.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Card title</h5>
-        <ul class="nav justify-content-evenly">
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-secondary text-white" href="#">Link</a>
-          </li>
-        </ul>
-        <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
-      </div>
-    </div>
-    <span style="white-space: pre-line"></span>
-      <div class="card col-3 mt-5" style="width: 18rem;">
-        <img src="img/bgholder.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-          <ul class="nav justify-content-evenly">
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
+  </div>
+<!-- aboutme section -->
+  <section class="AboutMe text-center mt-5">
+    <h2 class="text-primary mt-5 mb-3"><dt>About Me</dt></h2>
+    <p class="text-primary"> I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br> 
+      don’t hestiate to contact me.</p>
+    <button class="btn btn-success">Get My Resume</button>
+    <div class="row d-flex mt-5"> 
+      <div class="Ame-card rounded col-md-4">
+        <img src="img/languageicon.png" alt="languages" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title text-primary mb-5">Languages</h5>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
+          
         </div>
       </div>
-      <div class="card col-3 mt-5" style="width: 18rem;">
-        <img src="img/bgholder.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-          <ul class="nav justify-content-evenly">
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
+      <div class="Ame-card rounded col-md-4">
+        <img src="img/frameworksicon.png" alt="frameworks" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title text-primary mb-5"><dt>Frameworks</dt></h5>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript<br></a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
         </div>
       </div>
-      <div class="card col-3 mt-5" style="width: 18rem;">
-        <img src="img/bgholder.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-          <ul class="nav justify-content-evenly">
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link bg-secondary text-white" href="#">Link</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
+      <div class="Ame-card rounded col-md-4">
+        <img src="img/Skillicon.png" alt="skills" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title text-primary mb-5"><dt>Skills</dt></h5>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
+         
         </div>
       </div>
-  </section>
-  <section class="about-me text-center">
-    <h2 class="about-me-title mt-5">About me</h2>
-    <p class="about-me-p"> dhs ah</p>
-
-    <div class="about-me-cards row g-4 mt-5">
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>>
-          <a href="#" class="btn btn-primary d-flex justify-content-center">Go somewhere</a>
-        </div>
-      </div>
-  </section>    
-
+    </div>   
+  </section>  
+ 
+  
+  <!-- form -->
   <section class="respond d-flex flex-row">
 
     <h3 class=" form-page col mt-5 p-3">
@@ -227,17 +185,13 @@
 
     <form class="col mt-5 p-3">
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-        <input type="name" class="form-control" placeholder="fullname" required>
-      </div>
-
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control"placeholder="name@example.com" required>
+        <input type="name" class="form-control" placeholder="Full Name" required>
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"> textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <input type="email" class="form-control" placeholder="Email address" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type something..." required></textarea>
       </div>
     </form>
 
