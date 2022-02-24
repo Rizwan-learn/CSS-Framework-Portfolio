@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!--Header -----> 
+  <!--Header ----->
   <div class="head-cont container-fluid text-center">
     <header>
       <ul class="nav justify-content-center">
@@ -26,14 +26,14 @@
           <a class="nav-link text-primary" href="#">Contact</a>
         </li>
       </ul>
-    </header>
-    <section class="container position-absolute start-50 top-50 translate-middle">
+    </header> 
+    <section class="container-fluid mt-5 pt-5">
       <h1 class="text-primary text-center"><dt>Hey there. I’m Alex.<br></dt>
       <span class="text-success">I'm a software developer</span></h1>
-      <p class="text-primary text-center"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+      <p class="text-primary text-center"> I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br> 
         don’t hestiate to contact me.</p>
       <div class="social g-4">
-        <ul class="socials">       
+        <ul class="socials mb-5">       
           <a class="col mx-2" href="">
             <img src="img/github.png">
           </a >
@@ -51,6 +51,9 @@
           </a >
         </ul>
       </div>
+      <a href="#">
+        <img src="img/actionbutton.png" alt="downmenu">
+      </a>
     </section>
   </div>
   <!-- works section -->
@@ -141,7 +144,7 @@
       <div class="Ame-card rounded col-md-3 mx-2">
         <img src="img/languageicon.png" alt="languages" class="card-img-top">
         <div class="card-body text-center">
-          <h5 class="card-title text-primary d-flex mb-5 justify-content-start">Languages</h5>
+          <h5 class="card-title text-primary d-flex mb-5 justify-content-center">Languages</h5>
           <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
           <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
           <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
@@ -156,8 +159,8 @@
           <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
           <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
           <div class="col mt-3">
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
+            <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
+            <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
           </div>
         </div>
       </div>
@@ -165,26 +168,26 @@
         <img src="img/Skillicon.png" alt="skills" class="card-img-top">
         <div class="card-body text-center">
           <h5 class="card-title text-primary mb-5"><dt>Skills</dt></h5>
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Ruby on rail</a>
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Css</a>
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">JavaScript</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Codekit</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">GitHub</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Codepen</a>
+          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Gitlab</a>
           <div class="col mt-3">
-          <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">html</a>
+            <a href="#" class="card-link bg-light text-success px-3 p-1 rounded">Terminal</a>
           </div> 
         </div>
       </div>
     </div>   
   </section>  
- 
+  
   
   <!-- form -->
-  <section class="respond d-flex flex-row">
-
-    <h3 class=" form-page col mt-5 p-3">
+  <section class="respond">
+    <div class="row">
+    <h3 class=" form-page col mt-5 p-3 d-flex align-items-center text-primary">
       I'm always interested in hearing about new projects,
        so if you'd like to chat please get in touch.
     </h3>
-
     <form class="col mt-5 p-3">
       <div class="mb-3">
         <input type="name" class="form-control" placeholder="Full Name" required>
@@ -195,13 +198,25 @@
       <div class="mb-3">
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type something..." required></textarea>
       </div>
+      <button class="btn btn-success">Get in touch</button>
     </form>
-
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-md-2 mt-3 pt-3">
+    <img class="float-start" src="img/formleft.png" alt="illustration">
+      </div>
+      <div class="col-md-2 mt-5 pt-5">
+    <img src="img/formsecondlef.png" alt="illustration">
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4 d-flex justify-content-end">
+    <img src="img/formright.png" alt="illustration">
+      </div>
+    </div>
   </section>
-
+  <hr>
   <section class="end">
-
-    <div class="social g-4 d-flex justify-content-center">
+    <div class="social d-flex justify-content-center">
       <ul class="socials">       
         <a class="col mx-2" href="">
           <img src="img/github.png">
@@ -221,7 +236,5 @@
       </ul>
     </div>
   </section>
-
-
 </body>
 </html>

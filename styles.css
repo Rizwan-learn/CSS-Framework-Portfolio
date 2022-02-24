@@ -1,27 +1,13 @@
-
 .head-cont {
   background-image: url(img/Header-llustration-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
-}
-
-section {
-  margin: 8%;
-}
-
-.about-me-cards {
-  display: flex;
-  justify-content: space-around;
 }
 
 .card-img-top {
   height: 25vh;
-}
-
-.row>* {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .card-link {
@@ -32,10 +18,4 @@ section {
   background-image: url("img/bgholder.png");
   background-position: center;
   background-size: cover;
-}
-
-.AboutMe {
-  background-image: url(img/aboutmebtleft.png) ;
-  background-image: url(img/aboutmetopright.png);
-  background-repeat: no-repeat;
 }
